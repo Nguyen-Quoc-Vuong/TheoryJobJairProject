@@ -1,0 +1,36 @@
+ul.danhsach {
+    list-style: none; /*bo dau cham*/
+    display: flex;
+}
+
+.menutren {
+    background-color: rgb(50, 221, 227);
+    height: 30px;
+    
+    
+}
+
+ul.menungang {
+    list-style: none; 
+    
+    width: 900px;
+    margin: auto;
+    text-align: center;
+
+}
+
+ul.menungang a {
+    color: white;
+    text-decoration: none; /*bo gach chan*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase; /* In hoa */
+    font-size: 13px;
+    display: flex;
+    padding: 6px;
+    transition: background-color 0.3s ease;
+}
+
+ul.menungang a:hover {
+    background-color: rgb(0, 0, 0);
+    padding : 3px 6px 9px 6px;
+}

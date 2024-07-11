@@ -1,0 +1,22 @@
+.small_right_block {
+    display: flex;
+    width: 500px;
+    margin-left: 1300px;
+}
+
+.small_right_block .small_right_1 {
+    width: 20%;
+}
+
+.small_right_block .small_right_2 {
+    width:  80%;
+    display: flex;
+}
+.small_right_block .small_right_3 {
+    
+}
+
+img {
+    width: 100%;
+}
+

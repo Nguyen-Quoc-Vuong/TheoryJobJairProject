@@ -1,0 +1,16 @@
+.small_left_block {
+    /* width: 200px;
+    margin-left: 50px; */
+    display: flex;
+}
+.small_left_block .small_one {
+    width: 50%;
+    height: 100px;
+}
+.small_left_block .small_two {
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+}

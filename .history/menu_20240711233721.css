@@ -1,0 +1,33 @@
+ul.danhsach {
+    list-style: none; /*bo dau cham*/
+    display: flex;
+}
+
+.menutren {
+    background-color: rgb(50, 221, 227);
+    height: 30px;
+    
+    
+}
+
+ul.menungang {
+    list-style: none; 
+    display: flex;
+    width: 900px;
+    margin: auto;
+    
+}
+
+ul.menungang a {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(50, 221, 227);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+}

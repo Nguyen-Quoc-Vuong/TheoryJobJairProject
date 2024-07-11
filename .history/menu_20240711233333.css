@@ -1,0 +1,15 @@
+ul.danhsach {
+    list-style: none; /*bo dau cham*/
+    display: flex;
+}
+
+.menutren {
+    background-color: rgb(30, 22, 137);
+
+}
+
+ul.menungang {
+    list-style: none; 
+    display: flex;
+    
+}

@@ -1,0 +1,9 @@
+ul.danhsach {
+    list-style: none; /*bo dau cham*/
+    display: flex;
+}
+
+ul.menungang {
+    list-style: none; 
+    display: flex;
+}

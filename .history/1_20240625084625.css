@@ -1,0 +1,7 @@
+.small_left_block {
+    width: 100px;
+    margin-left: 50px;
+}
+.small_left_block.img {
+    width: 100%;
+}

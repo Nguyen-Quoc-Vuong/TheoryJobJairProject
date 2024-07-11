@@ -1,0 +1,11 @@
+.small_left_block {
+    width: 200px;
+    margin-left: 50px;
+    display: flex;
+}
+.small_left_block .small_one {
+    width: 50%;
+}
+.small_left_block .small_two {
+    width: 0%;
+}

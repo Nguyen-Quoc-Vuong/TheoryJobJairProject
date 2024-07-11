@@ -1,0 +1,21 @@
+.small_right_block {
+    display: flex;
+    width: 500px;
+    margin-left: 1000px;
+}
+
+.small_right_block .small_right_1 {
+    width: 20%;
+}
+
+.small_right_block .small_right_2 {
+    width:  40%;
+}
+.small_right_block .small_right_3 {
+    width:  40%;
+}
+
+img {
+    width: 100%;
+}
+

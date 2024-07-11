@@ -1,0 +1,27 @@
+.small_right_block {
+    display: flex;
+    width: 500px;
+    /* margin-left: 1300px; */
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.small_right_block .small_right_1 {
+    width: 30%;
+}
+
+.small_right_block .small_right_2 {
+    width:  65%;
+   
+}
+
+img {
+    width: 100%;
+}
+
+.xoa_gach_chan {
+    text-decoration: none;
+    display: block;
+}
