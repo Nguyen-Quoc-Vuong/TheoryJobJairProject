@@ -1,0 +1,18 @@
+._3cot {
+    display: flex;
+    width: 1027px;
+}
+
+._3cot ._cot1 {
+    flex-wrap: wrap;
+}
+
+._3cot ._cot1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+._3cot ._cot1 a:hover{
+    text-decoration: underline;
+    color: aqua;
+}

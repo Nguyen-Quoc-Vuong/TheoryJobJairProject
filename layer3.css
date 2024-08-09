@@ -1,0 +1,5 @@
+perspective : 1000px; /*xoay 3D để ở bố */
+
+transform-origin: left top; /*vị trí trục xoay*/
+
+transform: rotateY(0deg); /*xoay theo hướng trục nòa*/

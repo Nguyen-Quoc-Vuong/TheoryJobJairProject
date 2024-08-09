@@ -1,0 +1,27 @@
+.duoi {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.duoi a.khoinho {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+   
+    
+
+}
+/* .duoi a.khoinho :hover {
+    background-color: rgb(29, 26, 215);
+    color: white;
+    
+
+} */
+.duoi a.khoinho img.anh {
+    
+}
+.duoi a.khoinho span.chu {
+   
+}

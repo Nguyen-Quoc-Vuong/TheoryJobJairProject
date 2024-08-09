@@ -1,0 +1,11 @@
+._3cot {
+    display: flex;
+}
+
+._3cot ._cot1 {
+    flex-wrap: wrap;
+}
+
+._3cot ._cot1 a {
+    text-decoration: none;
+}

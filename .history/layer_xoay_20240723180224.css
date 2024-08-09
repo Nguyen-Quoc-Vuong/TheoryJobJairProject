@@ -1,0 +1,23 @@
+.bo {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.bo .xoay {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transition: 1s;
+}
+.bo :hover .xoay {
+    transform: rotate(360deg);/*quay*/
+}
+
+.bo .chinh {
+    width: 392px;
+    position: absolute;
+    top: 242px;
+    left: 375px;
+}

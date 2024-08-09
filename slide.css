@@ -1,0 +1,10 @@
+.myslide {
+   width: 100px;
+}
+.myslide img {
+    width: 100px;
+}
+
+.myslide .carousel-indicators{
+    display: none;
+}

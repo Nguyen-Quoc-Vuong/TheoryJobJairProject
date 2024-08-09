@@ -1,0 +1,28 @@
+._13cot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+._13cot .duoi {
+    width: 77px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.duoi img {
+    
+   
+    
+
+}
+/* .duoi a.khoinho :hover {
+    background-color: rgb(29, 26, 215);
+    color: white;
+    
+
+} */
+
+.duoi a.chu {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.bo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.bo .n1 {
+    width: 100px;
+    height: 100px;
+}
+.bo .n2 {}
+.bo .n3 {}

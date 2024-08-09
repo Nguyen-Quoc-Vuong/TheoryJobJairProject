@@ -1,0 +1,16 @@
+.bo {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.bo .xoay {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+
+}
+.bo .chinh {
+    width: 500px;
+}

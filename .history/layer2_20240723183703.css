@@ -1,0 +1,18 @@
+.product{
+    position: relative;
+    width: 340px;
+    height: 520px;
+}
+.product .item{position: absolute;}
+.product .anh1{}
+.product .anh2{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+.product .layer1{}
+.product .layer1 .trai{}
+.product .layer1 .phai{}
+.product .layer2{}
+.product .layer3{}

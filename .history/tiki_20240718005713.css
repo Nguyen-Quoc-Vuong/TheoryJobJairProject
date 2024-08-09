@@ -1,0 +1,40 @@
+._3cot {
+    display: flex;
+    width: 1150px;
+    margin: auto;
+}
+
+._3cot ._cot1 {
+    flex-wrap: wrap;
+    width: 280px;
+    display: flex;
+}
+
+
+._3cot ._cot1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+._3cot ._cot1 a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+._3cot ._cot1 img{
+    width: 25%;
+    margin: auto;
+}
+
+._3cot ._cot2 {
+    width: 525px;
+    display: flex;
+}
+._3cot ._cot2 img{
+    width: 50%
+}
+
+
+._3cot ._cot3 {
+    width: 345px;
+}

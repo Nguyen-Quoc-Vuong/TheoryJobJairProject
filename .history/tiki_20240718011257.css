@@ -1,0 +1,55 @@
+._3cot {
+    display: flex;
+    width: 1150px;
+    margin: auto;
+    height: 425px;
+}
+
+._3cot ._cot1 {
+    flex-wrap: wrap;
+    width: 280px;
+    display: flex;
+}
+
+
+._3cot ._cot1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+._3cot ._cot1 a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+._3cot ._cot1 img{
+    width: 25%;
+    margin: auto;
+}
+
+._3cot ._cot2 {
+    width: 525px;
+}
+
+._3cot ._cot2 .tren{
+    height: 330px;
+    display: flex;
+}
+._3cot ._cot2 .tren .carousel-inner .carousel-item active{
+    display: flex;
+}
+._3cot ._cot2 .duoi{
+    height: 95px;
+    display: flex;
+}
+._3cot ._cot2 .duoi .duoinua{
+    width: 50%;
+}
+
+
+._3cot ._cot3 {
+    width: 345px;
+}
+img {
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.product{
+    position: relative;
+    width: 340px;
+    height: 520px;
+}
+.product .anhvaitem{
+    position: relative;
+}
+.product .anhvaitem .item{
+    position: absolute;
+}
+
+.product .anh1{position: absolute;}
+.product .anh2{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4;
+}
+.product:hover .anh2{
+    opacity: 1;
+}
+.product .layer1{}
+.product .layer1 .trai{}
+.product .layer1 .phai{}
+.product .layer2{}
+.product .layer3{}

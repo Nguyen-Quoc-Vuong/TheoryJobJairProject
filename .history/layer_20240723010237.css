@@ -1,0 +1,38 @@
+.bo {
+    position: relative;/*bố mới có*/
+    width: 100px;
+    height: 100px;
+}
+.bo .n1 {
+    width: 100px;
+    height: 100px;
+}
+.bo .n2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    opacity : 0; /*làm mờ*/
+
+    position: absolute;/*cho nằm trong bố*/
+    top: 0; left: 0;
+    transition: 0.4s;
+}
+.bo:hover .n2 {
+    opacity : 0.4;
+}
+
+.bo .n3 {
+    font-size: 35px;
+    color: white;
+    opacity : 0;
+
+    position: absolute;
+    top: 30px; left: 35px;
+    transition: 0.4s;
+    transform: scale(0.5);
+}
+
+.bo:hover .n3 {
+    opacity : 1;
+    transform: scale(1);
+}

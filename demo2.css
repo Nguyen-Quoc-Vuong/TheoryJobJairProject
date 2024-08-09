@@ -1,0 +1,56 @@
+/*
+overflow : hidden ( ở ngoài khối đó sẽ biến mất )
+kết hợp : positive : relative & top : 50px sẽ di chuyển được chữ trong div == padding-top
+khi dùng boder (viền) + box-sizing :boder-box : hiện viền ở mọi góc
+-webkit-linear-gradient : tạo màu chuyển đổi màu (hiệu ứng di chuột kính loáng qua)
+background-size: cover : hiển thị đủ ảnh
+*/
+body {
+    background-color: black;
+}
+/* .chu {
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+.chu .chunho{
+    padding-top: 100px;
+    transition: 0.4s;
+    
+}
+.chu:hover .chunho{
+    padding-top: 0px;
+    
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 200px;
+    height:400px;
+    background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.gra {
+    position: absolute;
+    top: -91px;
+    left: -227px;
+    width: 340px;
+    height: 86px;
+    transform: rotate(-45deg);
+    background: -webkit-linear-gradient(top, #ffffff00 0%, #fefefefc 50%, #ffffff00 100%);
+    transition: 0.4s;
+}
+
+.container:hover gra {
+    opacity: 0;
+    top: 380px;
+    left: 100px;
+}

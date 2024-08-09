@@ -1,0 +1,21 @@
+.duoi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.duoi a.khoinho {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(50, 221, 227);
+    display: block;
+}
+
+.duoi a.khoinho img.anh {
+    width: ;
+}
+.duoi a.khoinho span.chu {
+
+}

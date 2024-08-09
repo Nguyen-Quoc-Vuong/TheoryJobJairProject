@@ -1,0 +1,32 @@
+/*after: giúp ko cần nhiều lệnh trong html (thay cho div, h1,...)*/
+/* background-attachment: fixed : lăn chuọot xuống ảnh vẫn giữ nguyên ( ko để vào after/before) */
+:root {
+    --mauvang : rgb(201, 201, 54);
+    --maunen : rgb(129, 118, 118);
+    --text_size1 : 18px;
+
+}
+/* biến var*/
+body {
+    background-color: var(--maunen);
+}
+
+a.chu {
+    position: relative;
+    text-decoration: none;
+    font-size: var(--text_size1);
+}
+a.chu::after {
+  content: "";
+  background-color: aqua;
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: 0.4s;
+}
+
+a.chu:hover::after {
+    width: 100%;
+}

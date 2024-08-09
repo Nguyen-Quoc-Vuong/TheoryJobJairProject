@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menutop {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(206, 202, 202);
+    line-height: 40px;
+}
+.menutop > ul {
+    display: flex;
+    list-style: none;
+    
+}
+.menutop > ul > li{
+    
+}
+.menu {
+    position: relative;
+    height: 40px;
+    margin-right: 30px;
+}
+.menu a.layer1{
+    text-decoration: none;
+}
+.menu:hover a.layer1{
+    color: red;
+    background-color: rgb(31, 30, 30);
+}
+.menu .layer2{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(226, 226, 226);
+    
+}
+.menu:hover .layer2{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}   
+.menu .layer2 ul{
+    list-style: none;
+}
+.menu .layer2 ul li{
+
+}
+.menu .layer2 ul li a{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    border-bottom: 1px solid rgb(206, 202, 202);
+}
+.menu .layer2 ul li a:hover{
+    background-color: rgb(31, 30, 30);
+    color: red;
+}

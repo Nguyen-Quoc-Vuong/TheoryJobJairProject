@@ -1,0 +1,15 @@
+.bo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.bo .n1 {
+    width: 100px;
+    height: 100px;
+}
+.bo .n2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.bo .n3 {}
