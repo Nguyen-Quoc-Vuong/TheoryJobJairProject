@@ -1,0 +1,1 @@
+this: gọi đến object hiện tại, hoặc
