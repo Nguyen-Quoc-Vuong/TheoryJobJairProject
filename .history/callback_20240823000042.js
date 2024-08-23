@@ -26,4 +26,8 @@ function sleep(ms) {
       alert('HI')
   }, 3000   ) 
   
- 
+  function displayName() {
+        console.log(this.firstname + ' ' + this.lastname)
+  }
+
+  
